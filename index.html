@@ -117,10 +117,13 @@
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@4.1.3/keen-slider.min.js"></script>
     <script>
       var slider = new KeenSlider("#my-keen-slider", {
+        spacing: 10,
         slidesPerView: 2,
-        mode: "free",
-        spacing: 15,
+        centered: true,
         loop: true,
+        centered: false,
+        mode: "free-snap",
+        dragSpeed: 1,
       });
     </script>
   </body>
